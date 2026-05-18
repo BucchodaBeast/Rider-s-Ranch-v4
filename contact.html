@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us &mdash; Riders Ranch Bikers Club</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+<div class="header-inner">
+  <a href="index.html" class="logo">
+    <img src="images/logo-white-web.png" alt="Riders Ranch" class="logo-img-header">
+    <span><span class="logo-red">Riders</span> Ranch</span>
+  </a>
+  <button class="hamburger" id="hamburgerBtn" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+  <nav class="desktop-nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="groups.html">Groups</a>
+    <a href="events.html">Events</a>
+    <a href="records.html">Records</a>
+    <a href="tour.html">On</a>
+    <a href="join.html">Join</a>
+    <a href="contact.html" class="active">Contact</a>
+  </nav>
+</div>
+</header>
+
+<nav class="mobile-nav" id="mobileNav">
+  <a href="index.html" data-num="00/">Home</a>
+  <a href="about.html" data-num="01/">About Us</a>
+  <a href="groups.html" data-num="02/">Groups</a>
+  <a href="events.html" data-num="03/">Events</a>
+  <a href="records.html" data-num="04/">Records</a>
+  <a href="tour.html" data-num="05/">On Tour</a>
+  <a href="join.html" data-num="06/">Join Us</a>
+  <a href="contact.html" class="active" data-num="07/">Contact</a>
+  <div class="mobile-nav-footer">
+    <span>+268 7600 0001</span>
+    <span>Sidvokodvo, Eswatini</span>
+  </div>
+</nav>
+
+<div class="page-hero page-hero--contact page-hero-fixed">
+<div class="page-hero-inner">
+  <p class="section-label">Get In Touch</p>
+  <h1>Contact<br><span>Riders Ranch</span></h1>
+  <p class="hero-sub-text">Questions, enquiries, or just want to say hello before your first ride. We're always here.</p>
+</div>
+</div>
+
+<div class="contact-split">
+  <div>
+    <div class="contact-photo-col">
+      <img src="images/entrance-sign-web.jpg" alt="Riders Ranch Sidvokodvo entrance gate" class="img-pos-20">
+    </div>
+    <div class="text-col">
+      <h3 class="u-heading-md">Find Us</h3>
+      <div class="contact-item">
+        <div class="contact-item-icon">&#128205;</div>
+        <div class="contact-item-text">
+          <strong>Address</strong>
+          <p>Riders Ranch Bikers Club<br>Sidvokodvo, Manzini Region<br>Kingdom of Eswatini</p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-icon">&#128222;</div>
+        <div class="contact-item-text"><strong>Phone</strong><p>+268 7600 0001</p></div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-icon">&#9993;</div>
+        <div class="contact-item-text"><strong>Email</strong><p>info@ridersranch.co.sz</p></div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-icon">&#128336;</div>
+        <div class="contact-item-text">
+          <strong>Opening Hours</strong>
+          <p>Mon&ndash;Fri: 5:30 PM &ndash; 8:00 PM<br>Saturday: 7:00 AM &ndash; 12:00 PM<br>Sunday: 8:30 AM &ndash; 1:00 PM</p>
+        </div>
+      </div>
+      <div class="highlight-box">
+        <strong>First Sunday Ride?</strong>
+        <p class="u-text-small">Simply show up by 9:00 AM any Sunday. Introduce yourself to anyone in a club jersey &mdash; they'll get you sorted. No booking needed for your first visit.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-form-col">
+    <p class="section-label">Send a Message</p>
+    <h2 class="u-heading-lg">Enquiry Form</h2>
+    <div class="red-line"></div>
+    <p class="u-text-body u-mb-md">Interested in joining, have questions about events, or want to arrange a visit? We'll reply within 2&ndash;3 business days.</p>
+
+    <div class="form-2col">
+      <div class="form-group"><label for="c_fname">First Name *</label><input type="text" id="c_fname" placeholder="First name" required></div>
+      <div class="form-group"><label for="c_lname">Last Name *</label><input type="text" id="c_lname" placeholder="Last name" required></div>
+    </div>
+    <div class="form-group"><label for="c_email">Email *</label><input type="email" id="c_email" placeholder="your@email.com" required></div>
+    <div class="form-2col">
+      <div class="form-group"><label for="c_phone">Phone</label><input type="tel" id="c_phone" placeholder="+268 7xxx xxxx"></div>
+      <div class="form-group"><label for="c_age">Age *</label><input type="number" id="c_age" placeholder="Your age" min="10" max="99" required></div>
+    </div>
+    <div class="form-group"><label for="c_experience">Cycling Experience *</label>
+      <select id="c_experience" required>
+        <option value="">Select level...</option>
+        <option>No experience &mdash; just curious</option>
+        <option>Beginner &mdash; ridden a little</option>
+        <option>Recreational &mdash; leisure rides</option>
+        <option>Regular cyclist</option>
+        <option>Competitive rider</option>
+      </select>
+    </div>
+    <div class="form-group"><label for="c_subject">Reason for Enquiry *</label>
+      <select id="c_subject" required>
+        <option value="">Select topic...</option>
+        <option>Membership enquiry</option><option>Sunday ride info</option>
+        <option>Events &amp; time trials</option><option>Overseas tours</option>
+        <option>Swazi Rally</option><option>Sponsorship / partnership</option>
+        <option>General question</option><option>Other</option>
+      </select>
+    </div>
+    <div class="form-group"><label for="c_message">Your Message *</label>
+      <textarea id="c_message" rows="5" placeholder="Tell us what you'd like to know..." required></textarea>
+    </div>
+    <div class="notice">&#9432;&nbsp; Your details will only be used to respond to your enquiry. We don't share member information with third parties.</div>
+    <button class="btn" onclick="alert('Message sent! We will get back to you within 2-3 business days. Thank you for your interest in Riders Ranch.')">Send Message</button>
+  </div>
+</div>
+
+<section class="section section-dark">
+<div class="section-inner">
+  <p class="section-label">Getting Here</p>
+  <h2 class="section-title">Directions to Sidvokodvo</h2>
+  <div class="red-line"></div>
+  <p class="u-text-body u-mb-md">Sidvokodvo is in the Manzini Region of Eswatini &mdash; approximately 50 km south of Mbabane and 30 km southeast of Manzini city.</p>
+  <div class="table-wrap u-max-640">
+  <table>
+  <tbody>
+    <tr><td class="td-hi">From Mbabane</td><td class="u-muted">Head south on MR3, turn east toward Sidvokodvo &mdash; approx 50 km, 45 min</td></tr>
+    <tr><td class="td-hi">From Manzini</td><td class="u-muted">Head southeast on MR8 &mdash; approx 30 km, 25 min</td></tr>
+    <tr><td class="td-hi">From South Africa</td><td class="u-muted">Enter via Oshoek/Ngwenya border, follow MR3 south &mdash; approx 90 min from JHB border</td></tr>
+    <tr><td class="td-hi">From Mozambique</td><td class="u-muted">Enter via Lomahasha, follow MR8 west through Simunye &mdash; approx 1.5 hrs</td></tr>
+  </tbody>
+  </table>
+  </div>
+  <div class="map-placeholder">
+    <span class="map-pin">&#128205;</span>
+    <span>Sidvokodvo, Manzini Region</span>
+    <span class="map-pin-label">Kingdom of Eswatini</span>
+  </div>
+</div>
+</section>
+
+<div class="photo-overlay-wrap h-300">
+  <img src="images/race-bmw-web.jpg" alt="Race action" class="img-pos-40">
+  <div class="photo-overlay-center">
+    <div class="closing-band-inner">
+      <h2>See You on the Road</h2>
+      <p class="u-muted">The open roads of Eswatini are waiting. Riders Ranch has been riding them since 1966 &mdash; and we're not stopping anytime soon.</p>
+      <a href="join.html" class="btn">Join the Club</a>
+    </div>
+  </div>
+</div>
+
+<footer>
+<div class="footer-inner">
+  <div class="footer-brand">
+    <a href="index.html" class="logo logo-footer-wrap">
+      <img src="images/logo-white-web.png" alt="Logo" class="logo-img-footer">
+      <span><span class="logo-red">Riders</span> Ranch</span>
+    </a>
+    <p>Bikers Club of Sidvokodvo, Eswatini. Founded 1966.</p>
+  </div>
+  <div class="footer-cols">
+    <div class="footer-col">
+      <h4>Navigate</h4>
+      <a href="about.html">About Us</a><a href="groups.html">Groups</a>
+      <a href="events.html">Events</a><a href="records.html">Records</a>
+      <a href="tour.html">On Tour</a><a href="join.html">Join Us</a><a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-col"><h4>Sunday Rides</h4>
+      <a href="groups.html">Fast &mdash; 9:15 AM</a>
+      <a href="groups.html">Medium &mdash; 9:30 AM</a>
+      <a href="groups.html">Easy &mdash; 10:00 AM</a>
+    </div>
+    <div class="footer-col"><h4>Contact</h4>
+      <a href="contact.html">+268 7600 0001</a>
+      <a href="contact.html">Sidvokodvo, Eswatini</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2024 Riders Ranch Bikers Club &mdash; Sidvokodvo, Eswatini</p>
+    <p>Est. 1966 &nbsp;&#9651;&nbsp; All Rights Reserved</p>
+  </div>
+</div>
+</footer>
+<script src="nav.js"></script>
+</body>
+</html>
